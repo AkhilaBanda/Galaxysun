@@ -1,4 +1,4 @@
-# A.reverse every word in that sentence.
+// A.reverse every word in that sentence.
 function reverseWordsInSentence(sentence) {
     let words = sentence.split(' ');
  for (let i = 0; i < words.length; i++) {
