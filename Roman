@@ -1,0 +1,18 @@
+public class RomanToInteger {
+    public static void main(String[] args) {
+        // Your input Roman numeral
+        String romanNumeral = "IX";
+
+        int integerValue = romanToInt(romanNumeral);
+        System.out.println("Integer value of " + romanNumeral + " is: " + integerValue);
+    }
+
+    public static int romanToInt(String s) {
+        // Your logic to convert Roman numeral to integer
+        // Implement your conversion logic here
+        // For example, you can use a map or conditional statements to convert
+        // the Roman numeral to an integer.
+        // Return the integer value
+        return 0; // Replace this with your actual conversion logic
+    }
+}
