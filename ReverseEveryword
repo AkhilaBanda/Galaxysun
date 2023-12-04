@@ -1,0 +1,13 @@
+# A.reverse every word in that sentence.
+function reverseWordsInSentence(sentence) {
+    let words = sentence.split(' ');
+ for (let i = 0; i < words.length; i++) {
+        words[i] = words[i].split('').reverse().join('');
+    }
+let reversedSentence = words.join(' ');
+
+    return reversedSentence;
+}
+let inputSentence = "This is a sunny day";
+let reversedSentence = reverseWordsInSentence(inputSentence);
+console.log(reversedSentence); 
